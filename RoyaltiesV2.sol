@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.7.5;
+pragma solidity ^0.8.0;
 pragma abicoder v2;
 
-import "../libraries/LibPart.sol";
+import "./LibPart.sol";
 
 interface RoyaltiesV2 {
     event RoyaltiesSet(uint256 tokenId, LibPart.Part royalties);
