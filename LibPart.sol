@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT pragma
-pragma solidity 0.7.5;
+pragma solidity ^0.8.0;
 
 library LibPart {
     bytes32 public constant TYPE_HASH =
